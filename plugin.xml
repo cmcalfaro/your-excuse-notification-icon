@@ -30,7 +30,7 @@
             </feature>
         </config-file>
 		
-		<source-file src="src/dummy_android_plugin.java" target-dir="src/com/dummy/android" />
+	<source-file src="src/your-excuse-notification-icon.java" target-dir="src/com/qrglue/excuse/android" />
 
         <resource-file src="drawable/notification_icon.png" target="res/drawable/notification_icon.png" />
         
