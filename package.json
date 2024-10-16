@@ -1,9 +1,9 @@
 {
-  "name": "dummy-android-plugin",
+  "name": "your-excuse-notification-icon",
   "version": "1.0.0",
-  "description": "Dummy Android Plugin",
+  "description": "Your Excuse Notification Icon Plugin",
   "cordova": {
-    "id": "dummy-android-plugin",
+    "id": "your-excuse-notification-icon",
     "platforms": [
       "android"
     ]
