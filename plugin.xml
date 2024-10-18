@@ -30,7 +30,7 @@
             </feature>
         </config-file>
 		
-	<source-file src="your-excuse-notification-icon/your_excuse_notification_icon.java" target-dir="src/com/qrglue/excuse/android" />
+	<source-file src="src/your_excuse_notification_icon.java" target-dir="src/com/qrglue/excuse/android" />
 
         <resource-file src="drawable/notification_icon.png" target="res/drawable/notification_icon.png" />
         
