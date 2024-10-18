@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
     xmlns:android="http://schemas.android.com/apk/res/android"
-    id="dummy-android-plugin"
+    id="your-excuse-notification-icon"
     version="1.0.0">
 
     <name>Your Excuse Notification Icon Plugin</name>
@@ -15,7 +15,7 @@
     </engines>
     
 	<js-module src="www/plugin.js" name="your-excuse-notification-icon">
-		<clobbers target="dummy-android-plugin" />
+		<clobbers target="your-excuse-notification-icon" />
 	</js-module>
 	
     <platform name="android">
@@ -26,7 +26,7 @@
 		
         <config-file target="res/xml/config.xml" parent="/*">
             <feature name="your-excuse-notification-icon" >
-                <param name="android-package" value="com.dummy.android.your_excuse_notification_icon"/>
+                <param name="android-package" value="com.qrglue.excuse.android.your_excuse_notification_icon"/>
             </feature>
         </config-file>
 		
