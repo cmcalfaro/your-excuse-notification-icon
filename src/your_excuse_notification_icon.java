@@ -27,18 +27,7 @@ import android.util.Log;
 public class your_excuse_notification_icon extends CordovaPlugin {
 
 	@Override
-	public void initialize(CordovaInterface cordova, CordovaWebView webView) {
-		super.initialize(cordova, webView);		
-	}
-
-	@Override
 	public boolean execute(String action, CordovaArgs args, CallbackContext callbackContext) throws JSONException {
 		return true;
 	}
-
-	@Override
-	public void onDestroy() {
-		super.onDestroy();
-	}
-
 }
